@@ -7,7 +7,7 @@ def home():
     return render_template('index.html')
 
 #Create Send route for From
-@app.route('/send', methods=['POST'])
+@app.route('/api', methods=['POST'])
 def send():
     if request.method == 'POST':
         num1 = request.form['num1']
@@ -15,20 +15,12 @@ def send():
         c1 = int(num1) ** 2
         c2 = int(num2) ** 2
         sum = ((c1 + c2) ** (1/2))
-        
+
+        #No PostMan esta funcionando esta requisição 
         #render_template('index.html', sum=sum)
-        return jsonify({"olá": f"{sum}"})
+        res = jsonify({"Resultado": sum })
 
 
-@app.route('/test', methods=['GET'])
-def test():
-    if request.method == 'GET':
-        return jsonify({ "minha" : "Gostosa"})
-
-        
-@app.route('/testando', methods=['POST'])
-def testando():
-    if request.method == 'POST':
-        return jsonify({ "Post" : "Fiz um post"})
+        return res
 
 app.run(debug=True)
