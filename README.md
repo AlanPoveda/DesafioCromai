@@ -4,13 +4,13 @@ Desafio feito pela empresa Cromai para entrar como estagiário
 
 # Como esta separado:
 
-    O desafio esta em 3 pastas. Eu somente conclui a parte do HTML, e a API em Python. Comecei a fazer o site em React, mas não finalizei
+O desafio esta em 3 pastas. Eu somente conclui a parte do HTML, e a API em Python. Comecei a fazer o site em React, mas não finalizei
 
-#Aplicação básica
+# Aplicação básica
 
-    Feita em HTML CSS JS puro. Mostra a resposta da hipotenusa
+Feita em HTML CSS JS puro. Mostra a resposta da hipotenusa
 
-<img src="/HtmlCssJS/Captura.PNG" width="400"> 
+<img src="/HtmlCssJS/Captura.PNG" width="400"> <img src="/HtmlCssJS/Captura1.PNG" width="400"> 
 
 # Aplicação API Python Flask
 
