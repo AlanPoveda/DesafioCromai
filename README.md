@@ -10,7 +10,7 @@ O desafio esta em 3 pastas. Eu somente conclui a parte do HTML, e a API em Pytho
 
 Feita em HTML CSS JS puro. Mostra a resposta da hipotenusa
 
-<img src="/HtmlCssJS/Captura.PNG" width="400"> <img src="/HtmlCssJS/Captura1.PNG" width="400"> 
+<img src="/HtmlCssJS/Captura.PNG" width="400"> <img src="/HtmlCssJS/Capture1.PNG" width="400"> 
 
 # Aplicação API Python Flask
 
