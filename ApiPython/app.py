@@ -1,3 +1,4 @@
+#Python. flask
 from flask import Flask, render_template, request, jsonify
 
 app = Flask(__name__)
@@ -18,7 +19,7 @@ def send():
 
         #No PostMan esta funcionando esta requisição 
         #render_template('index.html', sum=sum)
-        res = jsonify({"Resultado": sum })
+        res = jsonify({"Hipotenusa": sum })
 
 
         return res
